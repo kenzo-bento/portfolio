@@ -9,12 +9,12 @@ export const profile = {
   // Three short lines shown in the hero: research, engineering, frontier.
   triad: [
     { label: 'Research', text: 'Studying how intelligent systems learn, represent, and generalize.' },
-    { label: 'Engineering', text: 'Building those ideas into systems people can actually use.' },
-    { label: 'Frontier', text: 'Following the hardware and companies shaping where AI goes next.' },
+    { label: 'Engineering', text: 'Building ideas into systems and applications people actually use.' },
+    { label: 'Frontier', text: 'Following research and companies shaping where AI goes next.' },
   ],
   intro: [
-    'I am an undergraduate at Johns Hopkins studying Applied Mathematics & Statistics and Computer Science. I approach AI from several directions at once: the science of how learning systems work, the engineering of turning models into reliable software, and the technologies and teams that determine what gets built.',
-    'My research so far has focused on computer vision. I co-led work on saliency-guided region proposals for object detection, which drew on ideas from biological vision to make detectors more efficient. I am also exploring computational neuroscience, specialized AI hardware, and early-stage startups.',
+    'I am an undergraduate at Johns Hopkins studying Applied Mathematics & Statistics and Computer Science. I approach AI from several directions at once: the math of how learning systems work, the neuroscience that inspired AI, and the engineering of turning models into reliable software.',
+    'My research so far has focused on computer vision. I co-led work on saliency-guided region proposals for object detection, which drew on ideas from biological vision to make detectors more efficient. I am also building agentic AI-powered applications and am passionate about bringing ideas to life.',
   ],
 }
 
@@ -110,16 +110,14 @@ export const skills: { group: string; items: string[] }[] = [
   {
     group: 'Machine Learning & AI',
     items: [
-      'PyTorch',
       'Deep Learning',
-      'Convolutional Neural Networks',
+      'CNNs',
       'Vision Transformers',
       'Large Language Models',
       'Attention Mechanisms',
-      'Representation Learning',
     ],
   },
-  { group: 'Programming', items: ['Python', 'C++', 'R', 'SQL'] },
+  { group: 'Programming', items: ['React', 'FastAPI', 'SQL', 'PyTorch', 'LangChain'] },
   {
     group: 'Mathematics',
     items: ['Linear Algebra', 'Multivariable Calculus', 'Differential Equations', 'Vector Calculus'],
